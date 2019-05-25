@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+  <title>Alicia's CV</title>
+  <style>
+    header {
+  text-align: center;
+  background: url("https://i.imgur.com/9OYJ8wf.jpg");
+  background-size: cover;
+}
+header:hover {
+  background: url("https://i.imgur.com/veBQKm0.jpg");
+  color: white;
+}
+a {
+  color: rgba(238, 230, 255, 1);
+}
+a:hover {
+  color: MediumSpringGreen;
+}
+h1 {
+  font-size: 90px;
+}
+img {
+  margin: 60px 0px 0px 0px;
+  border: 20px solid white;
+  border-radius: 20px;
+}
+ul {
+  padding: 20px;
+  background: #000066;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
+}
+article:hover {
+  border-style: dashed;
+  border-width: 10px;
+}
+article:active {
+  background: url("https://media.mojang.com/blog-image/2c34ca1217c7d95e76a6f8d646adf9208f78145a/blogmcnet.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+button {
+  background: Indigo;
+  border: None;
+  padding: 10px 35px;
+  color: Lavender;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background: Magenta;
+}
+@media (max-width: 500px) {
+  img {
+     width: 100px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+}
+  </style>
+  <script>
+    function clicked(){
+      alert("Liked, thank you very much!!")
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <img src="">
+    <h1>Alicia's CV</h1>
+    <ul>
+      <li><a href="">About me</a></li>
+      <li><a href="">My Achivements</a></li>
+      <li><a href="">CV</a></li>
+      <li><a href="">Home</a></li>
+    </ul>
+  </header>
+
+  <article>
+    <h2>Quick Introduction</h2>
+    <p>
+      Hi
+      My Name is Alicia Freiin Von Richthofen
+      I am a 6th grade student who goes to CDNIS. 
+      Things I like:
+      School and learning
+      Sports
+      Music
+      Through this website you can learn more about me. 
+
+    </p>
+    <button onclick="clicked()">Give me a like!</button>
+  </article>
+
+  
+
+</body>
